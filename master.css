@@ -201,9 +201,9 @@ a,
 }
 @media only screen and (max-width: 768px) {
 
-  /* For mobile phones: */
+    /* For mobile phones: */
     .social-icon {
-        margin:15% ;
+        margin:10% ;
         display: flex;
         justify-content: center;
     }
@@ -215,6 +215,7 @@ a,
     }
     section{
         padding: 80px 20px;
+        
     }
     .main h2{  
         font-size: 1em;
@@ -227,4 +228,19 @@ a,
         align-items: center;
         
     }
+}
+@media only screen and (max-width: 360px) {
+    /* for only miny mobile */
+    .content .card {
+        max-width: 200px;
+    }
+        .main p {
+            font-size: 30px;
+            text-align: center;
+        }
+        .btn-grad {
+            min-width: 150px;
+            margin: 2% 5% ;
+            
+        }
 }
