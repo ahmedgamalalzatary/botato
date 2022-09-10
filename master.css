@@ -201,9 +201,14 @@ a,
 }
 @media only screen and (max-width: 768px) {
 
-    /* For mobile phones: */
-    .header {
-        padding: 12px 20px;
+  /* For mobile phones: */
+    .social-icon {
+        margin:15% ;
+        display: flex;
+        justify-content: center;
+    }
+    .main p {
+        font-size: 39px;
     }
     .title-one,.title-two {
         font-size: 1.6em;
