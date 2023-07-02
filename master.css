@@ -49,6 +49,9 @@ a,
 .more-details:hover {
     text-decoration: none;
 }
+#services , #contact{
+    width: 100%;
+}
 
 .main a.one {
     color: #fff;
